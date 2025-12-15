@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png+xml" href="/AJQR.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>qrcode</title>
+</head>
+
+<body>
+  <div id="app">
+    <label for="urt"> Create QR Code</label>
+    <br>
+    <textarea placeholder="Enter the text or web url " id="textInput" maxlength="2603"></textarea>
+    <br>
+    <button id="createQR"> Create QR code </button>
+    <button id="clearText"> Clear</button>
+    <br>
+    <hr />
+
+    <br>
+
+    <canvas id="canvas"></canvas>
+    <br>
+    <br>
+    <hr>
+    <button class="hide" id="download"> Download </button>
+
+    <button id="copy" class="hide"> Copy</button>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
