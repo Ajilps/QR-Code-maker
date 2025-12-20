@@ -188,19 +188,7 @@ Contributions are welcome! Please follow these steps:
 - Update documentation as needed
 - Test changes thoroughly
 
-## 📄 License
 
-This project is currently unlicensed. To add a license:
-
-1. Choose an appropriate license (MIT recommended for open source)
-2. Create a `LICENSE` file with the license text
-3. Update this section with license information
-
-For quick setup:
-```bash
-# Add MIT License
-curl -o LICENSE https://opensource.org/licenses/MIT
-```
 
 ## 🙏 Acknowledgments
 
